@@ -1,6 +1,62 @@
+
 body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    height: 100vh;
     display: flex;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .left-section {
+    width: calc(33%);
+    background-image: url(/img/main-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo-body {
+    top: 25rem;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(23, 110, 187);
+    background-color: whitesmoke;
+    opacity: 0.4;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 150px;
+}
+
+/* .right-section {
+    padding-left: 33px;
+} */
+
+.right-section, .form-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.item {
+    flex-grow: 1;
+    padding-left: 33px;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-section {
+    justify-content: center;
+    background-color: rgb(141, 99, 48);
 }
