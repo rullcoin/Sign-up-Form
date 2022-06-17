@@ -71,8 +71,14 @@ body {
 }
 
 .form-section {
+    height: 1px;
     justify-content: center;
     background-color: rgb(255, 255, 255);
+}
+
+.form-section h1 {
+    font-size: 25px;
+    color:rgb(65, 68, 67)
 }
 
 .button-section {
@@ -84,6 +90,26 @@ body {
     width: 900px;
 }
 
-.names {
+.names, .details, .passwords {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 25px;
+}
+
+label {
     display: block;
+    opacity: 0.5;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+input {
+    padding: 0.5em;
+    border: 1px solid #665;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.button {
+    
 }
