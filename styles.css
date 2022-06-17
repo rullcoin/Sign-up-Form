@@ -15,7 +15,7 @@ body {
 
 .left-section {
     width: calc(65%);
-    background-image: url(/img/bg4.jpg);
+    background-image: url(bg4.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -139,7 +139,7 @@ h3 {
 }
 
 input:valid {
-    background: url(img/check.jpg);
+    background: url(check.jpg);
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: 450px;
