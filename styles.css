@@ -9,12 +9,12 @@ body {
 	border: 0;
     height: 100vh;
     display: flex;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 
 .left-section {
-    width: calc(45%);
+    width: calc(65%);
     background-image: url(/img/bg4.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body {
 }
 
 .logo-body {
-    top: 23.45rem;
+    top: 24.14rem;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -110,6 +110,29 @@ input {
     width: 500px;
 }
 
-.button {
-    
+button {
+    font-size: 24px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    background-color: rgb(165, 134, 93);
+    color: var(--white);
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: #3e8e41;
+    transition-duration: 0.3s;
+}
+
+button:active {
+    box-shadow: 0 2px #665;
+    transform: translateY(1px);
+}
+
+h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 100px;
 }
